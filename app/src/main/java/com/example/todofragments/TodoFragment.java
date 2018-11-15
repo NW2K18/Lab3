@@ -35,7 +35,7 @@ public class TodoFragment extends Fragment {
         // ^What does this mean?
         // Sets the title as test title and the boolean that the mTodo is complete... why?
         mTodo.setTitle("Test title");
-        mTodo.setIsComplete("true");
+        mTodo.setIsComplete(true);
     }
 
     // What is Nullable? We know what override is
@@ -43,7 +43,7 @@ public class TodoFragment extends Fragment {
     // It is a "View", so it's the V of the MVC?
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater
+    public View onCreateView(LayoutInflater inflater,
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
 
